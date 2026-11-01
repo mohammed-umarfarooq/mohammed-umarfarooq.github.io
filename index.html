@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MUF Studios &mdash; Duo Clash Official Portal</title>
+  <style>
+    :root {
+      --bg: #0c1017;
+      --card-bg: #141b26;
+      --border: #232f42;
+      --primary: #3b82f6;
+      --accent: #fbbf24;
+      --text: #f3f4f6;
+      --text-muted: #9ca3af;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 24px;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 40px;
+      max-width: 580px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      background: linear-gradient(135deg, #60a5fa, #fbbf24);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .tagline {
+      color: var(--text-muted);
+      font-size: 15px;
+      margin-bottom: 28px;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 16px;
+    }
+    a.btn {
+      display: block;
+      padding: 14px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 15px;
+      transition: all 0.2s ease;
+    }
+    a.btn-primary {
+      background: var(--primary);
+      color: #ffffff;
+    }
+    a.btn-primary:hover {
+      background: #2563eb;
+      transform: translateY(-1px);
+    }
+    a.btn-secondary {
+      background: #1f2937;
+      color: var(--accent);
+      border: 1px solid var(--border);
+    }
+    a.btn-secondary:hover {
+      background: #374151;
+      transform: translateY(-1px);
+    }
+    .footer {
+      margin-top: 28px;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>MUF Studios</h1>
+    <p class="tagline">Official Developer Portal &bull; Duo Clash: 2 Player Arcade</p>
+    <div class="links">
+      <a class="btn btn-primary" href="/duo-clash-privacy-policy/">View Duo Clash Privacy Policy</a>
+      <a class="btn btn-secondary" href="/app-ads.txt">IAB app-ads.txt Verification</a>
+    </div>
+    <div class="footer">
+      Package: <code>com.duoclash.game</code> &bull; Support: <code>mufstudios.support@gmail.com</code>
+    </div>
+  </div>
+</body>
+</html>
